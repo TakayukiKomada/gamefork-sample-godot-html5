@@ -1,0 +1,10 @@
+{
+  "manifest_version": 1,
+  "entry": "index.html",
+  "format": "godot",
+  "engine": "godot",
+  "engine_version": "4.3.0",
+  "web_threads": false,
+  "readme": "README.md",
+  "license_file": "LICENSE"
+}

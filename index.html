@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GameFork Godot HTML5 Sample</title>
+  <style>
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      background: #101820;
+      color: #f2f6d0;
+      font-family: system-ui, sans-serif;
+    }
+
+    canvas {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      background: linear-gradient(135deg, #183642, #101820);
+    }
+
+    .label {
+      position: fixed;
+      left: 16px;
+      bottom: 16px;
+      padding: 8px 10px;
+      border: 1px solid rgba(255,255,255,0.35);
+      background: rgba(0,0,0,0.45);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="game" width="960" height="540"></canvas>
+  <div class="label">GameFork Godot HTML5 sample</div>
+  <script src="game.js"></script>
+</body>
+</html>
